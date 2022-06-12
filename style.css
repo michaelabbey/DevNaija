@@ -28,12 +28,12 @@ body{
     --darkblue:#192a56;
 }
 header{
-    background: var(--orange);
+    background: var(--lightwhite);
 }
 .navbar-nav li a{
     list-style-type: none;
     text-decoration: none;
-    color: var(--white);
+    color: var(--darkblue);
     font-size: 1rem;
 }
 .navbar-nav li a:hover{
@@ -49,11 +49,14 @@ header{
     color: var(--white);
 }
 .bx-menu{
-    color: var(--white);
+    color: var(--orange);
     font-size: 3rem;
-    border: 1px solid var(--white);
+    border: 1px solid var(--darkblue);
 }
 /* BANNER  */
+#bannerimg2{
+    display: none;
+}
 .banner{
     color: var(--white);
     display: flex;
@@ -356,7 +359,7 @@ header{
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
     gap: 2rem;
 
     text-align: center;
@@ -392,77 +395,6 @@ header{
 /* Courses for ages 13 -16 done */
 
 
-/* Courses for ages 17+  */
-.courseage17entire{
-    background: url(img/blue-snow.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.courseage-program17{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
-    gap: 2rem;
-    
-
-}
-.courseage-program17 .col{
-    background-color: var(--white);
-    color: var(--darkblue);
-    box-shadow:
-    1.8px 10.3px 18.8px -14px rgba(0, 0, 0, 0.21),
-    3.1px 17.8px 32.9px -14px rgba(0, 0, 0, 0.167),
-    3.9px 22.7px 43.8px -14px rgba(0, 0, 0, 0.146),
-    4.6px 26.3px 52.7px -14px rgba(0, 0, 0, 0.13),
-    5.4px 31.4px 61.3px -14px rgba(0, 0, 0, 0.115),
-    7.1px 41.3px 71.8px -14px rgba(0, 0, 0, 0.099),
-    10px 57.9px 89.1px -14px rgba(0, 0, 0, 0.079),
-    14px 81px 140px -14px rgba(0, 0, 0, 0.051)
-    ;
-    transition: ease 1s;  
-    padding-bottom: 2rem;
-
-
-}
-.courseage-program17 .col:hover{
-    transform: translateY(-18px);
-    transition: ease 1s;
-}
-.courseage-program17 .col h4{
-    font-weight: 900;
-}
-.courseage-program17 .col img{
-    margin: 2rem 0;
-    width: 100%;
-}
-.schedule{
-    padding: 3rem 0;
-}
-.schedule h5{
-    padding: 0 2rem;
-    font-weight: 700;
-    color: var(--darkblue);
-    font-family: sans-serif;
-}
-.schedule ul li{
-    text-align: justify;
-    line-height: 2rem;
-}
-.schedule ul li{
-    list-style-type: none;
-    text-align: none;
-}
-.bxs-badge-check{
-    font-size: 15px;
-    color: var(--orange);
-}
-/* Courses for ages 17+ done */
 
 /* OTHER EVENT */
 #otherevent{
